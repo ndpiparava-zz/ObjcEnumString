@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45857C31E69F19800E5A54B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857C21E69F19800E5A54B /* main.m */; };
+		F45857C61E69F19800E5A54B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857C51E69F19800E5A54B /* AppDelegate.m */; };
+		F45857C91E69F19800E5A54B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857C81E69F19800E5A54B /* ViewController.m */; };
+		F45857CC1E69F19800E5A54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45857CA1E69F19800E5A54B /* Main.storyboard */; };
+		F45857CE1E69F19800E5A54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45857CD1E69F19800E5A54B /* Assets.xcassets */; };
+		F45857D11E69F19800E5A54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45857CF1E69F19800E5A54B /* LaunchScreen.storyboard */; };
+		F45857DC1E69F19800E5A54B /* EnumToStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857DB1E69F19800E5A54B /* EnumToStringTests.m */; };
+		F45857E71E69F19800E5A54B /* EnumToStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857E61E69F19800E5A54B /* EnumToStringUITests.m */; };
+		F45857F61E69F1FD00E5A54B /* ObjcEnumToString.m in Sources */ = {isa = PBXBuildFile; fileRef = F45857F51E69F1FD00E5A54B /* ObjcEnumToString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45857D81E69F19800E5A54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45857B61E69F19800E5A54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45857BD1E69F19800E5A54B;
+			remoteInfo = EnumToString;
+		};
+		F45857E31E69F19800E5A54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45857B61E69F19800E5A54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45857BD1E69F19800E5A54B;
+			remoteInfo = EnumToString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45857BE1E69F19800E5A54B /* EnumToString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumToString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45857C21E69F19800E5A54B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45857C41E69F19800E5A54B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F45857C51E69F19800E5A54B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F45857C71E69F19800E5A54B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F45857C81E69F19800E5A54B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F45857CB1E69F19800E5A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45857CD1E69F19800E5A54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45857D01E69F19800E5A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45857D21E69F19800E5A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45857D71E69F19800E5A54B /* EnumToStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumToStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45857DB1E69F19800E5A54B /* EnumToStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumToStringTests.m; sourceTree = "<group>"; };
+		F45857DD1E69F19800E5A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45857E21E69F19800E5A54B /* EnumToStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumToStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45857E61E69F19800E5A54B /* EnumToStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumToStringUITests.m; sourceTree = "<group>"; };
+		F45857E81E69F19800E5A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45857F41E69F1FD00E5A54B /* ObjcEnumToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcEnumToString.h; sourceTree = "<group>"; };
+		F45857F51E69F1FD00E5A54B /* ObjcEnumToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcEnumToString.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45857BB1E69F19800E5A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857D41E69F19800E5A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857DF1E69F19800E5A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45857B51E69F19800E5A54B = {
+			isa = PBXGroup;
+			children = (
+				F45857C01E69F19800E5A54B /* EnumToString */,
+				F45857DA1E69F19800E5A54B /* EnumToStringTests */,
+				F45857E51E69F19800E5A54B /* EnumToStringUITests */,
+				F45857BF1E69F19800E5A54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45857BF1E69F19800E5A54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45857BE1E69F19800E5A54B /* EnumToString.app */,
+				F45857D71E69F19800E5A54B /* EnumToStringTests.xctest */,
+				F45857E21E69F19800E5A54B /* EnumToStringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45857C01E69F19800E5A54B /* EnumToString */ = {
+			isa = PBXGroup;
+			children = (
+				F45857F71E69FD4300E5A54B /* Utils */,
+				F45857C41E69F19800E5A54B /* AppDelegate.h */,
+				F45857C51E69F19800E5A54B /* AppDelegate.m */,
+				F45857C71E69F19800E5A54B /* ViewController.h */,
+				F45857C81E69F19800E5A54B /* ViewController.m */,
+				F45857CA1E69F19800E5A54B /* Main.storyboard */,
+				F45857CD1E69F19800E5A54B /* Assets.xcassets */,
+				F45857CF1E69F19800E5A54B /* LaunchScreen.storyboard */,
+				F45857D21E69F19800E5A54B /* Info.plist */,
+				F45857C11E69F19800E5A54B /* Supporting Files */,
+			);
+			path = EnumToString;
+			sourceTree = "<group>";
+		};
+		F45857C11E69F19800E5A54B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45857C21E69F19800E5A54B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F45857DA1E69F19800E5A54B /* EnumToStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45857DB1E69F19800E5A54B /* EnumToStringTests.m */,
+				F45857DD1E69F19800E5A54B /* Info.plist */,
+			);
+			path = EnumToStringTests;
+			sourceTree = "<group>";
+		};
+		F45857E51E69F19800E5A54B /* EnumToStringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45857E61E69F19800E5A54B /* EnumToStringUITests.m */,
+				F45857E81E69F19800E5A54B /* Info.plist */,
+			);
+			path = EnumToStringUITests;
+			sourceTree = "<group>";
+		};
+		F45857F71E69FD4300E5A54B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F45857F41E69F1FD00E5A54B /* ObjcEnumToString.h */,
+				F45857F51E69F1FD00E5A54B /* ObjcEnumToString.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45857BD1E69F19800E5A54B /* EnumToString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45857EB1E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToString" */;
+			buildPhases = (
+				F45857BA1E69F19800E5A54B /* Sources */,
+				F45857BB1E69F19800E5A54B /* Frameworks */,
+				F45857BC1E69F19800E5A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumToString;
+			productName = EnumToString;
+			productReference = F45857BE1E69F19800E5A54B /* EnumToString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45857D61E69F19800E5A54B /* EnumToStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45857EE1E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToStringTests" */;
+			buildPhases = (
+				F45857D31E69F19800E5A54B /* Sources */,
+				F45857D41E69F19800E5A54B /* Frameworks */,
+				F45857D51E69F19800E5A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45857D91E69F19800E5A54B /* PBXTargetDependency */,
+			);
+			name = EnumToStringTests;
+			productName = EnumToStringTests;
+			productReference = F45857D71E69F19800E5A54B /* EnumToStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45857E11E69F19800E5A54B /* EnumToStringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45857F11E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToStringUITests" */;
+			buildPhases = (
+				F45857DE1E69F19800E5A54B /* Sources */,
+				F45857DF1E69F19800E5A54B /* Frameworks */,
+				F45857E01E69F19800E5A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45857E41E69F19800E5A54B /* PBXTargetDependency */,
+			);
+			name = EnumToStringUITests;
+			productName = EnumToStringUITests;
+			productReference = F45857E21E69F19800E5A54B /* EnumToStringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45857B61E69F19800E5A54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ndpiparava;
+				TargetAttributes = {
+					F45857BD1E69F19800E5A54B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N4HRAWS9N3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					F45857D61E69F19800E5A54B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N4HRAWS9N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45857BD1E69F19800E5A54B;
+					};
+					F45857E11E69F19800E5A54B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N4HRAWS9N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45857BD1E69F19800E5A54B;
+					};
+				};
+			};
+			buildConfigurationList = F45857B91E69F19800E5A54B /* Build configuration list for PBXProject "EnumToString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45857B51E69F19800E5A54B;
+			productRefGroup = F45857BF1E69F19800E5A54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45857BD1E69F19800E5A54B /* EnumToString */,
+				F45857D61E69F19800E5A54B /* EnumToStringTests */,
+				F45857E11E69F19800E5A54B /* EnumToStringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45857BC1E69F19800E5A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45857D11E69F19800E5A54B /* LaunchScreen.storyboard in Resources */,
+				F45857CE1E69F19800E5A54B /* Assets.xcassets in Resources */,
+				F45857CC1E69F19800E5A54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857D51E69F19800E5A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857E01E69F19800E5A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45857BA1E69F19800E5A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45857C91E69F19800E5A54B /* ViewController.m in Sources */,
+				F45857C61E69F19800E5A54B /* AppDelegate.m in Sources */,
+				F45857F61E69F1FD00E5A54B /* ObjcEnumToString.m in Sources */,
+				F45857C31E69F19800E5A54B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857D31E69F19800E5A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45857DC1E69F19800E5A54B /* EnumToStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45857DE1E69F19800E5A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45857E71E69F19800E5A54B /* EnumToStringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45857D91E69F19800E5A54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45857BD1E69F19800E5A54B /* EnumToString */;
+			targetProxy = F45857D81E69F19800E5A54B /* PBXContainerItemProxy */;
+		};
+		F45857E41E69F19800E5A54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45857BD1E69F19800E5A54B /* EnumToString */;
+			targetProxy = F45857E31E69F19800E5A54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45857CA1E69F19800E5A54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45857CB1E69F19800E5A54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45857CF1E69F19800E5A54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45857D01E69F19800E5A54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45857E91E69F19800E5A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F45857EA1E69F19800E5A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45857EC1E69F19800E5A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnumToString/EnumToString-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F45857ED1E69F19800E5A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnumToString/EnumToString-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F45857EF1E69F19800E5A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumToString.app/EnumToString";
+			};
+			name = Debug;
+		};
+		F45857F01E69F19800E5A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumToString.app/EnumToString";
+			};
+			name = Release;
+		};
+		F45857F21E69F19800E5A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnumToString;
+			};
+			name = Debug;
+		};
+		F45857F31E69F19800E5A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N4HRAWS9N3;
+				INFOPLIST_FILE = EnumToStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ndpiparava.EnumToStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnumToString;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45857B91E69F19800E5A54B /* Build configuration list for PBXProject "EnumToString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45857E91E69F19800E5A54B /* Debug */,
+				F45857EA1E69F19800E5A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45857EB1E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45857EC1E69F19800E5A54B /* Debug */,
+				F45857ED1E69F19800E5A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F45857EE1E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45857EF1E69F19800E5A54B /* Debug */,
+				F45857F01E69F19800E5A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F45857F11E69F19800E5A54B /* Build configuration list for PBXNativeTarget "EnumToStringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45857F21E69F19800E5A54B /* Debug */,
+				F45857F31E69F19800E5A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45857B61E69F19800E5A54B /* Project object */;
+}
